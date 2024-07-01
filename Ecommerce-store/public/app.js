@@ -49,6 +49,15 @@ let products = [
         category: 'Footwear',
         stock: 25
     }
+    {
+        id: '5',
+        name: 'Laptops',
+        description: 'student laptops',
+        price: 134489.99,
+        imageUrl: 'https://th.bing.com/th/id/OIP.TqRgd0FAlCJEdKQrIgyqtAHaE8?rs=1&pid=ImgDetMain',
+        category: 'Electronics',
+        stock: 50
+    }
 ];
 
 let categories = [...new Set(products.map(product => product.category))];
