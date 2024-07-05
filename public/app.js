@@ -146,7 +146,7 @@ function addToCart(productId) {
 }
 
 function updateCart() {
-    cartItems.innerHTML = '';
+    cartItems.innerHTML =  '';
     let subtotal = 0;
     cart.forEach(item => {
         const li = document.createElement('li');
