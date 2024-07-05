@@ -59,11 +59,7 @@ let products = [
         stock: 50
     },
     {
-
-        id: '8',
-
         id: '6',
-
         name: 'Toys',
         description: 'Baby toys in all varieties',
         price: 44.99,
