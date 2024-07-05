@@ -1,0 +1,50 @@
+.product-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card .card-text {
+    flex-grow: 1;
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+#cart-icon {
+    cursor: pointer;
+}
+
+.stock-status {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.in-stock {
+    color: green;
+}
+
+.low-stock {
+    color: orange;
+}
+
+.out-of-stock {
+    color: red;
+}
+.btn-link{
+    background-color: rgb(219, 219, 230);
+    text-decoration: none;
+}
+.btn-link:hover{
+    background-color: rgb(85, 85, 185);
+    text-decoration: none;
+    color: white;
+}
