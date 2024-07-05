@@ -51,11 +51,20 @@ let products = [
     },
     {
         id: '5',
-        name: 'Laptops',
-        description: 'student laptops',
-        price: 134489.99,
-        imageUrl: 'https://th.bing.com/th/id/OIP.TqRgd0FAlCJEdKQrIgyqtAHaE8?rs=1&pid=ImgDetMain',
-        category: 'Electronics',
+        name: 'Books',
+        description: 'All kind of books available',
+        price: 13.99,
+        imageUrl: 'https://th.bing.com/th/id/OIP._zXfuEA95QhKw8_3pk3INgHaFG?rs=1&pid=ImgDetMain',
+        category: 'Books',
+        stock: 50
+    },
+    {
+        id: '6',
+        name: 'Toys',
+        description: 'Baby toys in all varieties',
+        price: 44.99,
+        imageUrl: 'https://th.bing.com/th/id/OIP.9qsB0EcxEiKfB6e3sYYttQHaE8?rs=1&pid=ImgDetMain',
+        category: 'Toys',
         stock: 50
     }
 ];
@@ -137,7 +146,7 @@ function addToCart(productId) {
 }
 
 function updateCart() {
-    cartItems.innerHTML = '';
+    cartItems.innerHTML =  '';
     let subtotal = 0;
     cart.forEach(item => {
         const li = document.createElement('li');
